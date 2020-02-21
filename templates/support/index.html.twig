@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Appstack::Support{% endblock %}
+
+{% block body %}
+<img src="https://signup.appstack.de/logo_small.png" />
+    <h1>Support</h1> <h2>Schick' mir doch 'ne Mail!</h2>
+<div class="" style="margin: auto;width:300px;">
+<hr />
+{{form(form, { 'attr' : { 'class': 'propform' } })}}
+<hr />
+Noch keinen Account? <a href="https://signup.appstack.de">Jetzt registrieren!</a><br />
+Sie haben schon einen Account? <a href="https://mail.appstack.de">Zur Mailbox!</a>
+<p class="text-muted">
+<a target="_blank" href="https://support.appstack.de/impressum.html">Impressum</a>
+</p></div>
+{% endblock %}
